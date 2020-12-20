@@ -20,13 +20,14 @@ h1 {
 }
 
 .faq {
-  background-color: transparent;
-  border: 1px solid #9fa4a8;
+  background-color: darkgrey;
+  border: 1px solid transparent;
   margin: 20px 0;
   padding: 30px;
   position: relative;
   overflow: hidden;
   transition: 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .faq.active {
