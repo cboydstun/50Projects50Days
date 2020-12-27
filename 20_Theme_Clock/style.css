@@ -69,6 +69,7 @@ body {
   height: 65px;
   width: 3px;
   transform-origin: bottom center;
+  transition: all 0.5s ease-in;
 }
 
 .needle.hour {
@@ -76,12 +77,12 @@ body {
 }
 
 .needle.minute {
-  transform: translate(-50%, -100%) rotate(30deg);
+  transform: translate(-50%, -100%) rotate(0deg);
   height: 100px;
 }
 
 .needle.second {
-  transform: translate(-50%, -100%) rotate(60deg);
+  transform: translate(-50%, -100%) rotate(0deg);
   height: 100px;
   background-color: red;
 }
