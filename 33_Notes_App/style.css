@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Muli', sans-serif;
   background-color: dodgerblue;
   display: flex;
   flex-wrap: wrap;
@@ -20,7 +20,6 @@ body {
   background-color: lightgreen;
   border: none;
   color: white;
-
   border-radius: 3px;
   padding: 0.5rem 1rem;
   cursor: pointer;
